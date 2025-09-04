@@ -1,2 +1,13 @@
 ﻿  Main.cpp
-  InuyashaRescueTeam.vcxproj -> E:\Sparta\NBC_TeamProject_01\InuyashaRescueTeam\x64\Debug\InuyashaRescueTeam.exe
+  battlefield.cpp
+  BattleManager.cpp
+  Card.cpp
+  C_Attack.cpp
+  C_Guard.cpp
+  C_Move.cpp
+  Enemy.cpp
+  Entity.cpp
+  Player.cpp
+  GameManager.cpp
+  코드를 생성하고 있습니다...
+  InuyashaRescueTeam.vcxproj -> C:\github\NBC_TeamProject_01\InuyashaRescueTeam\x64\Debug\InuyashaRescueTeam.exe

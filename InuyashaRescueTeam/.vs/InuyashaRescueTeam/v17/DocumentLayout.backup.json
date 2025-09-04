@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Sparta\\NBC_TeamProject_01\\InuyashaRescueTeam\\",
+  "WorkspaceRootPath": "C:\\github\\NBC_TeamProject_01\\InuyashaRescueTeam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|E:\\Sparta\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|C:\\github\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|solutionrelative:InuyashaRescueTeam\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|C:\\github\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\src\\battelfield\\battlefield.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|solutionrelative:InuyashaRescueTeam\\src\\battelfield\\battlefield.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +18,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "battlefield.cpp",
+              "DocumentMoniker": "C:\\github\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\src\\battelfield\\battlefield.cpp",
+              "RelativeDocumentMoniker": "InuyashaRescueTeam\\src\\battelfield\\battlefield.cpp",
+              "ToolTip": "C:\\github\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\src\\battelfield\\battlefield.cpp",
+              "RelativeToolTip": "InuyashaRescueTeam\\src\\battelfield\\battlefield.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-03T10:26:48.568Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Main.cpp",
-              "DocumentMoniker": "E:\\Sparta\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Main.cpp",
+              "DocumentMoniker": "C:\\github\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Main.cpp",
               "RelativeDocumentMoniker": "InuyashaRescueTeam\\Main.cpp",
-              "ToolTip": "E:\\Sparta\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Main.cpp",
+              "ToolTip": "C:\\github\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Main.cpp",
               "RelativeToolTip": "InuyashaRescueTeam\\Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-29T08:05:15.874Z",
               "EditorCaption": ""

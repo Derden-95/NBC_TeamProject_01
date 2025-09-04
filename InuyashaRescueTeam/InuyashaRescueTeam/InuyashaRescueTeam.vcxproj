@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,6 +129,30 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="src\battelfield\battlefield.cpp" />
+    <ClCompile Include="src\BattleManager\BattleManager.cpp" />
+    <ClCompile Include="src\Card\Card.cpp" />
+    <ClCompile Include="src\Card\C_Attack.cpp" />
+    <ClCompile Include="src\Card\C_Guard.cpp" />
+    <ClCompile Include="src\Card\C_Move.cpp" />
+    <ClCompile Include="src\Entity\Enemy.cpp" />
+    <ClCompile Include="src\Entity\Entity.cpp" />
+    <ClCompile Include="src\Entity\Player.cpp" />
+    <ClCompile Include="src\GameManager\GameManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\battlefield\battlefield.h" />
+    <ClInclude Include="include\BattleManager\BattleManager.h" />
+    <ClInclude Include="include\Cards.h" />
+    <ClInclude Include="include\Card\Card.h" />
+    <ClInclude Include="include\Card\C_Attack.h" />
+    <ClInclude Include="include\Card\C_Guard.h" />
+    <ClInclude Include="include\Card\C_Move.h" />
+    <ClInclude Include="include\Entities.h" />
+    <ClInclude Include="include\Entity\Enemy.h" />
+    <ClInclude Include="include\Entity\Entity.h" />
+    <ClInclude Include="include\Entity\Player.h" />
+    <ClInclude Include="include\GameManager\GameManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

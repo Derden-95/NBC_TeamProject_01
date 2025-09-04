@@ -1,1 +1,11 @@
-E:\Sparta\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\Main.cpp;E:\Sparta\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\x64\Debug\Main.obj
+C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\Main.cpp;C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\x64\Debug\Main.obj
+C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\src\battelfield\battlefield.cpp;C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\x64\Debug\battlefield.obj
+C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\src\BattleManager\BattleManager.cpp;C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\x64\Debug\BattleManager.obj
+C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\src\Card\Card.cpp;C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\x64\Debug\Card.obj
+C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\src\Card\C_Attack.cpp;C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\x64\Debug\C_Attack.obj
+C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\src\Card\C_Guard.cpp;C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\x64\Debug\C_Guard.obj
+C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\src\Card\C_Move.cpp;C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\x64\Debug\C_Move.obj
+C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\src\Entity\Enemy.cpp;C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\x64\Debug\Enemy.obj
+C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\src\Entity\Entity.cpp;C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\x64\Debug\Entity.obj
+C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\src\Entity\Player.cpp;C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\x64\Debug\Player.obj
+C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\src\GameManager\GameManager.cpp;C:\github\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\x64\Debug\GameManager.obj
