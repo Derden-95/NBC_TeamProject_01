@@ -1,8 +1,10 @@
 ﻿#include "Player.hpp"
+#include "Card.hpp"     // 카드 헤더 포함
+#include "C_Attack.hpp" // 카드 헤더 포함
+#include "C_Guard.hpp"  // 카드 헤더 포함
+#include "C_Move.hpp"   // 카드 헤더 포함
 #include <iostream>
-
-// Card 클래스 전방 선언
-class Card {};
+#include <typeinfo> // dynamic_cast 사용을 위해 추가
 
 // 커서 위치를 (x, y)로 이동시키는 함수
 void setCursorPosition(int x, int y) 
@@ -152,16 +154,95 @@ void Player::LevelUP()
     std::cout << "***** HP, 스태미나, 공격력, 방어력이 상승했습니다. *****" << std::endl;
 }
 
-// 카드 추가 함수 정의 (미구현)
-void Player::AddCard(const Card& newCard)
+// 스테미너 추가 (회복 또는 감소)
+void Player::AddStamina(int amount)
 {
-    // 카드 추가 미구현
+    // 현재 스테미너에 amount 값을 더함 (amount가 음수면 감소)
+    this->Stamina += amount;
+
+    // 스테미너가 0 미만으로 내려가지 않도록 처리
+    if (this->Stamina < 0)
+    {
+        this->Stamina = 0;
+    }
+
+    clearLine(getCurrentCursorLine());
+    if (amount >= 0)
+    {
+        std::cout << "***** 스테미너를 " << amount << "만큼 회복했습니다. (현재: " << this->Stamina << ") *****" << std::endl;
+    }
+    else
+    {
+        std::cout << "***** 스테미너를 " << -amount << "만큼 소모했습니다. (현재: " << this->Stamina << ") *****" << std::endl;
+    }
 }
 
-// 보유 카드 출력 (미구현)
-void Player::ShowCards() const 
+// 카드 추가 
+void Player::AddCard(std::shared_ptr<Card> newCard)
 {
-    // 카드 출력 로직 구현
+    deck.push_back(newCard);
+    // std::cout << "***** [ " << newCard->C_GetName() << " ] 카드를 덱에 추가했습니다. *****" << std::endl;
+}
+
+// 보유 카드 출력
+void Player::ShowCards() const
+{
+    clearLine(getCurrentCursorLine());
+    std::cout << "========== 보유 카드 목록 ==========" << std::endl;
+    if (deck.empty())
+    {
+        std::cout << "  보유한 카드가 없습니다." << std::endl;
+    }
+    else
+    {
+        for (size_t i = 0; i < deck.size(); ++i)
+        {
+            clearLine(getCurrentCursorLine());
+            std::cout << "  " << i + 1 << ". " << deck[i]->C_GetName() << " (Cost: " << deck[i]->C_GetCost() << ")" << std::endl;
+        }
+    }
+    std::cout << "==================================" << std::endl;
+}
+
+// 카드 사용
+void Player::UseCard(int index)
+{
+    // 유효한 인덱스인지 확인 (사용자 입력은 1부터 시작하므로 index - 1)
+    if (index <= 0 || index > deck.size())
+    {
+        clearLine(getCurrentCursorLine());
+        std::cout << "***** 잘못된 번호입니다. *****" << std::endl;
+        return;
+    }
+
+    // 덱에서 사용할 카드 선택
+    std::shared_ptr<Card> cardToUse = deck[index - 1];
+
+    // 카드의 실제 타입을 확인하기 위해 dynamic_pointer_cast 사용
+    // 1. 이동 카드인지 확인
+    if (auto moveCard = std::dynamic_pointer_cast<C_Move>(cardToUse))
+    {
+        posX += moveCard->M_GetX() * moveCard->M_GetDistance();
+        posY += moveCard->M_GetY() * moveCard->M_GetDistance();
+        clearLine(getCurrentCursorLine());
+        std::cout << "***** [ " << moveCard->C_GetName() << " ] 카드를 사용하여 이동했습니다! *****" << std::endl;
+    }
+    // 2. 공격 카드인지 확인
+    else if (auto attackCard = std::dynamic_pointer_cast<C_Attack>(cardToUse))
+    {
+        clearLine(getCurrentCursorLine());
+        std::cout << "***** [ " << attackCard->C_GetName() << " ] 카드를 사용하여 공격력 " << attackCard->A_GetATK() << "으로 공격합니다! (현재는 효과 없음) *****" << std::endl;
+    }
+    // 3. 방어 카드인지 확인
+    else if (auto guardCard = std::dynamic_pointer_cast<C_Guard>(cardToUse))
+    {
+        DEF += guardCard->G_GetDEF();
+        clearLine(getCurrentCursorLine());
+        std::cout << "***** [ " << guardCard->C_GetName() << " ] 카드를 사용하여 방어력이 " << guardCard->G_GetDEF() << "만큼 증가했습니다! *****" << std::endl;
+    }
+
+    // 사용한 카드를 덱에서 제거
+    deck.erase(deck.begin() + (index - 1));
 }
 
 // 정보 설정 (Setter) 

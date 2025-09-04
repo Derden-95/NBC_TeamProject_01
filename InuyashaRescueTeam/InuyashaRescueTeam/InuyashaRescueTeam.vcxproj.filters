@@ -27,9 +27,33 @@
     <ClCompile Include="Player.hpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Guard.hpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Move.hpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Attack.hpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Attack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Guard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Move.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entity.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

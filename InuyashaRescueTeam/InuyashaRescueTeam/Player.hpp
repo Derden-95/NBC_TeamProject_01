@@ -1,6 +1,7 @@
 #pragma once // 헤더 파일 중복 포함 방지
 #include "Entity.hpp" // 부모 클래스인 Entity 헤더 포함
 #include <vector>
+#include <memory> // std::shared_ptr 사용을 위해 추가
 #include <conio.h> // 컨트롤러 입력을 위한 헤더
 #include <windows.h> // Windows API 사용
 
@@ -28,7 +29,8 @@ private:
     int Money;
     int EXP;
     int maxEXP;
-    std::vector<std::shared_ptr <Card>> deck; // 카드 구현 시 추가
+    // 스마트 포인터 shared_ptr 사용
+    std::vector<std::shared_ptr <Card>> deck;
     int posX;
     int posY;
 
@@ -55,7 +57,9 @@ public:
     void Move(Direction dir);
     void PrintPosition() const;
     void PrintStatus() const;
-    void AddCard(const Card& newCard);
+    void AddCard(std::shared_ptr<Card> newCard); // 카드 추가
     void AddEXP(int amount);
-    void ShowCards() const;
+    void AddStamina(int amount);
+    void ShowCards() const;     // 카드 출력
+    void UseCard(int index);    // 카드 사용
 };
