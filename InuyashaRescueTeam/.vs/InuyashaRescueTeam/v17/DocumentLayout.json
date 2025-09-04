@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Sparta\\NBC_TeamProject_01\\InuyashaRescueTeam\\",
+  "WorkspaceRootPath": "C:\\GitForNBC\\NBC_TeamProject_01\\InuyashaRescueTeam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|E:\\Sparta\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|C:\\GitForNBC\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|solutionrelative:InuyashaRescueTeam\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|C:\\GitForNBC\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|solutionrelative:InuyashaRescueTeam\\Player.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|C:\\GitForNBC\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|solutionrelative:InuyashaRescueTeam\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|C:\\GitForNBC\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Entity.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|solutionrelative:InuyashaRescueTeam\\Entity.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|C:\\GitForNBC\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|solutionrelative:InuyashaRescueTeam\\Entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +30,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Entity.cpp",
+              "DocumentMoniker": "C:\\GitForNBC\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Entity.cpp",
+              "RelativeDocumentMoniker": "InuyashaRescueTeam\\Entity.cpp",
+              "ToolTip": "C:\\GitForNBC\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Entity.cpp",
+              "RelativeToolTip": "InuyashaRescueTeam\\Entity.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-01T05:55:15.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Entity.hpp",
+              "DocumentMoniker": "C:\\GitForNBC\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Entity.hpp",
+              "RelativeDocumentMoniker": "InuyashaRescueTeam\\Entity.hpp",
+              "ToolTip": "C:\\GitForNBC\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Entity.hpp",
+              "RelativeToolTip": "InuyashaRescueTeam\\Entity.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-01T05:54:27.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\GitForNBC\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Player.cpp",
+              "RelativeDocumentMoniker": "InuyashaRescueTeam\\Player.cpp",
+              "ToolTip": "C:\\GitForNBC\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Player.cpp",
+              "RelativeToolTip": "InuyashaRescueTeam\\Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-01T01:04:32.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.hpp",
+              "DocumentMoniker": "C:\\GitForNBC\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Player.hpp",
+              "RelativeDocumentMoniker": "InuyashaRescueTeam\\Player.hpp",
+              "ToolTip": "C:\\GitForNBC\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Player.hpp",
+              "RelativeToolTip": "InuyashaRescueTeam\\Player.hpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-01T01:04:16.43Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Main.cpp",
-              "DocumentMoniker": "E:\\Sparta\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Main.cpp",
+              "DocumentMoniker": "C:\\GitForNBC\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Main.cpp",
               "RelativeDocumentMoniker": "InuyashaRescueTeam\\Main.cpp",
-              "ToolTip": "E:\\Sparta\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Main.cpp",
+              "ToolTip": "C:\\GitForNBC\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Main.cpp",
               "RelativeToolTip": "InuyashaRescueTeam\\Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-29T08:05:15.874Z",
               "EditorCaption": ""
