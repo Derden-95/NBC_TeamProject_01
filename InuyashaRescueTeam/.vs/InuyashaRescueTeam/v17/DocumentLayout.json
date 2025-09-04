@@ -1,13 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rkc32\\OneDrive\\Desktop\\GITHUB\\NBC_TeamProject_01\\InuyashaRescueTeam\\",
+  "WorkspaceRootPath": "E:\\Sparta\\NBC_TeamProject_01\\InuyashaRescueTeam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|C:\\USERS\\RKC32\\ONEDRIVE\\DESKTOP\\GITHUB\\NBC_TEAMPROJECT_01\\INUYASHARESCUETEAM\\INUYASHARESCUETEAM\\INCLUDE\\CARD.HPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|solutionrelative:INUYASHARESCUETEAM\\INCLUDE\\CARD.HPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|C:\\Users\\rkc32\\OneDrive\\Desktop\\GITHUB\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|E:\\Sparta\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A6010385-A5C1-4321-9383-C0E6D0FEE9F4}|InuyashaRescueTeam\\InuyashaRescueTeam.vcxproj|solutionrelative:InuyashaRescueTeam\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -18,34 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Card.hpp",
-              "DocumentMoniker": "C:\\Users\\rkc32\\OneDrive\\Desktop\\GITHUB\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\include\\Card.hpp",
-              "RelativeDocumentMoniker": "InuyashaRescueTeam\\include\\Card.hpp",
-              "ToolTip": "C:\\Users\\rkc32\\OneDrive\\Desktop\\GITHUB\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\include\\Card.hpp",
-              "RelativeToolTip": "InuyashaRescueTeam\\include\\Card.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-04T07:38:50.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Main.cpp",
-              "DocumentMoniker": "C:\\Users\\rkc32\\OneDrive\\Desktop\\GITHUB\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Main.cpp",
+              "DocumentMoniker": "E:\\Sparta\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Main.cpp",
               "RelativeDocumentMoniker": "InuyashaRescueTeam\\Main.cpp",
-              "ToolTip": "C:\\Users\\rkc32\\OneDrive\\Desktop\\GITHUB\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Main.cpp",
+              "ToolTip": "E:\\Sparta\\NBC_TeamProject_01\\InuyashaRescueTeam\\InuyashaRescueTeam\\Main.cpp",
               "RelativeToolTip": "InuyashaRescueTeam\\Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANUAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-29T08:05:15.874Z",
               "EditorCaption": ""

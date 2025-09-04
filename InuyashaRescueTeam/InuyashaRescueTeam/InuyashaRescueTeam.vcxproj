@@ -104,7 +104,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\rkc32\OneDrive\Desktop\GITHUB\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\src;C:\Users\rkc32\OneDrive\Desktop\GITHUB\NBC_TeamProject_01\InuyashaRescueTeam\InuyashaRescueTeam\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
